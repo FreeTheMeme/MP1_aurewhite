@@ -11,7 +11,11 @@ Comments:
 
 Input/output from your mileage program
 ____________________________________
-
+enter distance (in miles):
+300
+enter gallons of gas:
+12.3
+Your Mileage is: 24.390244 per gallon
 
 
 ***************** bill    *****************
