@@ -1,0 +1,36 @@
+MP1 worksheet
+
+Comments:
+
+
+
+
+
+***************** mileage    *****************
+
+
+Input/output from your mileage program
+____________________________________
+
+
+
+***************** bill    *****************
+
+
+Input/output from your bill program
+____________________________________
+
+
+
+***************** jar    *****************
+
+
+Input/output from your jar program
+____________________________________
+
+
+
+***************** make_change    *****************
+
+Input/output from your make_change program
+____________________________________
