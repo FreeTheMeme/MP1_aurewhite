@@ -11,7 +11,7 @@ public class mileage {
         float mileage;
 
         //input
-        System.out.println("Mileage Calculator V0.1");
+        System.out.println("Mileage Calculator V1");
         System.out.println("enter distance (in miles):");
         miles = scan.nextFloat();
         System.out.println("enter gallons of gas:");
