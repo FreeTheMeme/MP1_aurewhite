@@ -10,9 +10,11 @@ public class bill {
         String dish1_name;
         int dish1_quantity;
         float dish1_price;
+
         String dish2_name;
         int dish2_quantity;
         float dish2_price;
+
         String dish3_name;
         int dish3_quantity;
         float dish3_price;
@@ -22,8 +24,8 @@ public class bill {
         int tip_P = 18;
         //totals
         float subtotal;
-        float tip_total;
         float sales_tax_total;
+        float tip_total;
         float total;
 
         //input
@@ -37,20 +39,24 @@ public class bill {
         dish1_price = scan.nextFloat();
         //dish 2
         System.out.println("Input name of dish 1:");
-        dish1_name = scan.next();
+        dish2_name = scan.next();
         System.out.println("Input quantity of dish 1:");
-        dish1_quantity = scan.nextInt();
+        dish2_quantity = scan.nextInt();
         System.out.println("Input price of dish 1:");
-        dish1_price = scan.nextFloat();
+        dish2_price = scan.nextFloat();
         //dish 3
         System.out.println("Input name of dish 1:");
-        dish1_name = scan.next();
+        dish3_name = scan.next();
         System.out.println("Input quantity of dish 1:");
-        dish1_quantity = scan.nextInt();
+        dish3_quantity = scan.nextInt();
         System.out.println("Input price of dish 1:");
-        dish1_price = scan.nextFloat();
+        dish3_price = scan.nextFloat();
 
         //calc
+        subtotal = (dish1_quantity * dish1_price)+(dish2_quantity * dish2_price)+(dish3_quantity * dish3_price);
+        sales_tax_total = subtotal / sales_tax_P;
+        tip_total = subtotal / tip_P;
+        total = subtotal + sales_tax_total + tip_total;
 
         //output
         
