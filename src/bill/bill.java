@@ -71,9 +71,9 @@ public class bill {
         System.out.printf("\n%-30s %-5s %-10s %-10s",dish2_name,dish2_quantity,dish2_price,dish2_total);
         System.out.printf("\n%-30s %-5s %-10s %-10s",dish3_name,dish3_quantity,dish3_price,dish3_total);
         System.out.printf("\nSubtotal%25s",subtotal);
-        System.out.printf("\n18 percent tip (before tax)%2.2f",tip_total);
-        System.out.printf("\n6 percent sales tax%2.2f",sales_tax_total);
-        System.out.printf("\nTotal%2.2f",total);
+        System.out.printf("\n18 percent tip (before tax)  %2.2f",tip_total);
+        System.out.printf("\n6 percent sales tax          %2.2f",sales_tax_total);
+        System.out.printf("\nTotal                        %2.2f",total);
 
     }
 }
