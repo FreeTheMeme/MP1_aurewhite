@@ -38,3 +38,13 @@ ____________________________________
 
 Input/output from your make_change program
 ____________________________________
+Enter price in dollars
+3
+Enter the remainder in cents
+41
+Enter money received in dollars
+4
+Enter the remainder in cents
+0
+dollar(s)  quarter(s) dime(s)    nickel(s)  pennies
+0          2          0          1          4
